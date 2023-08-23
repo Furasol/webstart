@@ -19,5 +19,6 @@ ul {
 .text-start {
     text-align: center;
     font-weight: bold;
-    text-decoration: wavy;
+    text-decoration:underline;
+    display: block;
 }
