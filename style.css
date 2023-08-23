@@ -1,3 +1,23 @@
+body {
+background-color:cornsilk;
+}
+p {
+    font-weight: bold;
+}
+ul {
+    font-weight: 900;
+}
+.text {
+    font-style: italic;
+}
 .text-center {
     text-align: center;
+}
+.text-decorate {
+    text-decoration:underline;
+}
+.text-start {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: wavy;
 }
