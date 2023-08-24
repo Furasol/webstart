@@ -1,12 +1,13 @@
 html {
     scroll-behavior: smooth;
-    top: 20px;
 }
 body {
 background-color:cornsilk;
 }
 p {
     font-weight: bold;
+    border-style:solid;
+    border-color: blueviolet;
 }
 ul {
     font-weight: 900;
@@ -25,4 +26,10 @@ ul {
     font-weight: bold;
     text-decoration:underline;
     display: block;
+}
+h1 {
+    color:#7FFF00;
+}
+h2 {
+    color:#FF69B4;
 }
