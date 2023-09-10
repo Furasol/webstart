@@ -1,2 +1,5 @@
-alert("Hello World");
-console.log("Hello Console!");
+let myVar;
+
+myVar = title;
+myVar = screens;
+myVar = screenPrice;
