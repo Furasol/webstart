@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html {
+    display: inline-block;
+}
 .box {
     display: block;
     width: 1010px;
@@ -21,6 +24,8 @@
     line-height: 1.2;
     font-weight: 700;
     color: #2f2f2f;
+    padding: 94px 387px 309px 523px;
+    margin: 180px 473px 404px 618px;
     display: inline-block
 }
 .text-2 {
