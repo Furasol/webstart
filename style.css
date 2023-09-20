@@ -1,22 +1,19 @@
 *{
     box-sizing: border-box;
 }
-html {
-    display: inline-block;
-}
 .box {
-    display: block;
-    width: 1010px;
-    height: 503px;
     border-color: #d7d7d7;
     border-style: solid;
     border-width: 0.7px;
-    margin: 86px 86px 95px 95px;
 }
 .picture{
-    display: inline-block;
-    padding: 64px 64px 586px 48px;
-    display: inline-block
+    width: 100%;
+    max-width: 375px;
+    height: 375px;
+    margin-right: 100px;
+}
+.i-block {
+display: inline-block;
 }
 .text-1 {
     font-family: Arial;
@@ -24,9 +21,6 @@ html {
     line-height: 1.2;
     font-weight: 700;
     color: #2f2f2f;
-    padding: 94px 387px 309px 523px;
-    margin: 180px 473px 404px 618px;
-    display: inline-block
 }
 .text-2 {
     font-family: Arial;
@@ -34,7 +28,6 @@ html {
     line-height: 1.2;
     font-weight: 400;
     color: #2f2f2f;
-    display: inline-block
 }
 .text-3 {
     font-family: Arial;
@@ -42,7 +35,6 @@ html {
     line-height: 1.2;
     font-weight: 400;
     color: #2f2f2f;
-    display: inline-block
 }
 .text-4 {
     font-family: Arial;
@@ -50,16 +42,6 @@ html {
     line-height: 1.2;
     font-weight: 400;
     color: #2f2f2f;
-    display: inline-block
-}
-.box-1 {
-    display: inline-block;
-    width: 252px;
-    height: 50px;
-    background-color: #ec744a;
-    padding: 372px 81px 232px 526px;
-    margin: 458px 167px 327px 621px;
-    display: inline-block
 }
 .text-5 {
     font-family: Arial;
@@ -67,6 +49,7 @@ html {
     line-height: 1.2;
     font-weight: 400;
     color: #ffffff;
-    padding: 16px 16px 39px 39px;
-    display: inline-block
+}
+img {
+    max-width: 100%;
 }
